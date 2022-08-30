@@ -1,0 +1,116 @@
+
+.main {
+    box-sizing: border-box;
+    border: 1px solid rgba(204, 204, 204, 0.445);
+    height: 45px;
+    max-width: 43vw;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+}
+
+.main:hover {
+    
+    border-color: transparent;
+    box-shadow: 0px 0px 2px 1px rgba(204, 204, 204, 0.845);
+}
+
+.first {
+  
+    width: 30px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.middle {
+  
+    margin-right: auto;
+
+    width: 90%;
+    height: 38px;
+    z-index: 10;
+
+}
+
+.middle input {
+    width: 95%;
+    height: 30px;
+    font-size: 16px;
+    margin-top: 3px;
+    background-color: transparent;
+    border: none;
+}
+.middle input:focus {
+    outline: none;
+}
+
+
+.last {
+    position: relative;
+    width: 30px;
+    height: 38px;
+    z-index: 20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.search:hover {
+    cursor: pointer;
+}
+.micro:hover {
+    cursor: pointer;
+}
+
+.cancelacion {
+    
+    padding-right: 8px;
+    margin-right: 2px;
+    border-right: 1px solid rgba(204, 204, 204, 0.845); ;
+}
+.cancelacion:hover {
+    cursor: pointer;
+
+}
+
+.btn{
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.btn button {
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    padding: 10px 10px;
+    background-color: #f1f1f17a;
+    border: 1px solid transparent;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.btn button:hover {
+    border: 1px solid rgba(202, 202, 202, 0.288);
+    box-shadow: 1px 2px 0px .2px rgba(204, 204, 204, 0.845);
+    cursor: pointer;
+}
+
+.offer {
+    font-size: 13px;
+}
+.offer a{
+    text-decoration: none;
+}
+.offer a:hover{
+    text-decoration: underline;
+}

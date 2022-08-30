@@ -1,0 +1,36 @@
+.main {
+    position: absolute;
+    background-color: rgba(221, 218, 218, 0.527);
+    height: 100px;
+    width: 100vw;
+    bottom: 0;
+    text-align: start;
+    font-size: 15px;
+}
+
+.main span {
+    margin-left: 30px;
+    color:rgb(99, 99, 99)
+}
+.span {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: .5px solid rgba(129, 129, 129, 0.61);
+}
+
+
+.footer {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.footer a {
+    margin: 0 15px;
+    text-decoration: none;
+    color:rgb(99, 99, 99)
+}
+.footer a:hover {
+   text-decoration: underline;
+}

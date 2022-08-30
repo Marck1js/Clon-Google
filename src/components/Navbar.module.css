@@ -1,0 +1,55 @@
+.main {
+    display: flex;
+    justify-content: space-between; 
+    padding-right: 1rem;   
+    margin-top: 10px;
+    
+}
+.container {
+    display: flex;
+    gap: 10px;
+    align-items: center;  
+}
+
+.container  a {
+    line-height: 24px;
+    font-size: 14px;
+    color:black;
+    text-decoration: none;
+}
+
+.img {
+    margin-right: 10px;
+}
+
+.container  a:hover {
+    text-decoration: underline;
+}   
+
+.container button {
+    background-color: rgb(37, 130, 218);
+    color: white;
+    padding: 7.5px 24px;
+    font-size: 15px;
+    box-sizing: content-box;
+    border-color:transparent;
+    border-radius: 7px ;
+}
+.container button:hover {
+    background-color: rgb(28, 155, 240);
+}
+
+.ico{
+    padding: 0 6px;
+    border-radius: 50%;
+}
+
+.ico_border {
+    /* outline: 1px solid red; */
+    margin-top: 4px;
+   
+
+}
+.ico:hover {
+    background-color: rgba(114, 113, 113, 0.23)
+}
